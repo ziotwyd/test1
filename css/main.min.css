@@ -8,7 +8,7 @@
     margin-top: 20px; /* Adjust the value as needed */
 }
 
-<style>
+
   .popup-overlay {
     position: fixed;
     top: 0;
@@ -31,4 +31,20 @@
   }
 
   /* Add other styles as needed for your specific design */
-</style>
+body {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+/* For Firefox */
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
